@@ -1,0 +1,6 @@
+.educationComp{
+    /* background-color: var(--main-bg-color); */
+    background-color: inherit;
+    width: 100%;
+    height: 100vh;
+}
