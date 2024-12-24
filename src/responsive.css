@@ -164,3 +164,8 @@
         line-height: 2rem;
     }
 }
+@media (max-width: 480px){
+    .app{
+        background-color: #c32c98;
+    }
+}
