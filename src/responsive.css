@@ -166,6 +166,26 @@
 }
 @media (max-width: 480px){
     .app{
-        background-color: #c32c98;
+        background-color: #4b1d3e;
+    }
+
+    .myName,.jobTitle{
+        font-size: 23px !important;
+    }
+    .desc{
+        font-size: 12px !important;
+    }
+    .firstSec {
+        width: 50%;
+    } 
+
+    .secondSec {
+        width: 50%;
+        margin-left: 1rem;
+    }
+    .rightAboutSec .infoBox {
+        width: 160px;
+        height: 120px;
+        line-height: 1rem;
     }
 }
