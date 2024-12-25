@@ -166,6 +166,37 @@
 }
 @media (max-width: 480px){
     .app{
-        background-color: #c32c98;
+        background-color: #4b1d3e;
+    }
+
+    .myName,.jobTitle{
+        font-size: 20px !important;
+    }
+    .jobTitle {
+        margin: 0.1rem 0 1rem 0;
+    }
+    .desc{
+        font-size: 12px !important;
+    }
+    .firstSec {
+        width: 50%;
+    } 
+
+    .secondSec {
+        width: 60%;
+        margin-left: 1rem;
+    }
+    .firstSec,
+    .secondSec {
+        font-size: 12px;
+    }
+    .rightAboutSec {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .rightAboutSec .infoBox {
+        width: auto;
+        height: 120px;
+        line-height: 1.5rem;
     }
 }
