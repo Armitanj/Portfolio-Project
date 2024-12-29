@@ -14,7 +14,8 @@
 
 .app {
   width: 100%;
-  background-color: var(--main-bg-color);
+  background-color: var(--main-bg-color) !important;
+  height: 100%;
 }
 
 .menuTagSec {
@@ -79,4 +80,8 @@
 .moreAboutMe:hover {
   color: var(--main-bg-color);
   background-position: 0;
+}
+
+.progress, .progress-stacked{
+  background-color: none !important;
 }
