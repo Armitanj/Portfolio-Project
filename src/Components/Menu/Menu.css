@@ -36,12 +36,10 @@
 .MenuComponent .navIcon:hover{
     background-color: var(--grey-icon-hover-color);
 }
-.MenuComponent .navIcon:first-child{
+.MenuComponent .navIcon.active{
     background-color: var(--yellow-color); 
 }
-.navIcon.active{
-    background-color: var(--yellow-color);
-}
+
 
 .MenuComponent .navIcon li{
    margin-top: -5px;

@@ -1,8 +1,3 @@
-h1.aboutTitle {
-    position: absolute;
-    margin: 3.5rem 0px 0px 42%;
-}
-
 h1.aboutTitle span {
     color: var(--yellow-color);
 }

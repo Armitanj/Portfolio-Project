@@ -17,10 +17,11 @@ export default function About() {
   return (
     <>
     <Container fluid>
-      <h1 className='aboutTitle'>About <span>Me</span></h1>
 
-      <Row className='d-flex AboutComponent'>
-        <Col xl={5} lg={8} md={8} sm={12} className="leftAboutSec">
+      <Row className='d-flex AboutComponent '>
+      <h1 className='aboutTitle text-center pt-4'>About <span>Me</span></h1>
+
+        <Col xl={5} lg={8} md={8} sm={12} className="leftAboutSec mt-5">
           <h2>PERSONAL INFOS</h2>
           <div className='infosSec'>
             <div className='firstSec'>
