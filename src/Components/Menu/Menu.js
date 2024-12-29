@@ -60,20 +60,5 @@ export default function Menu() {
         </Link>
       </ul>
     </div>
-
-    /*
-
-<div>
-      <ul className='MenuComponent'>
-       <Link to='/' className='navIcon active'><li><IoIosHome /></li></Link>
-       <Link to='/about' className='navIcon'><li><IoMdPerson /></li></Link>
-        <Link to='/skills' className='navIcon'><li><MdBusinessCenter /></li></Link>
-        <Link to='/portfolio' className='navIcon'><li><IoDocument /></li></Link>
-        <Link to='/contact' className='navIcon'><li><IoMdMailOpen /></li></Link>
-      </ul>
-
-    </div>
-
-*/
   );
 }

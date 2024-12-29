@@ -8,7 +8,7 @@
 }
 
 .MenuComponent .navIcon {
-    background-color: var( --grey-icon-color);
+    background-color: var(--grey-icon-color);
     /* margin-bottom: 1.5rem; */
     font-size: 20px;
     width: 50px;
@@ -33,14 +33,15 @@
 
 
 
-.MenuComponent .navIcon:hover{
+.MenuComponent .navIcon:hover {
     background-color: var(--grey-icon-hover-color);
 }
-.MenuComponent .navIcon.active{
-    background-color: var(--yellow-color); 
+
+.MenuComponent .navIcon.active {
+    background-color: var(--yellow-color);
 }
 
 
-.MenuComponent .navIcon li{
-   margin-top: -5px;
+.MenuComponent .navIcon li {
+    margin-top: -5px;
 }
