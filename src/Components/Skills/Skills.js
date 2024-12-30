@@ -9,7 +9,7 @@ export default function Skills() {
     <div className="h-100">
       <Container className="skillsComp">
         <h1 className="mySkills text-center pt-5">
-          My <span>Skills</span>
+          MY <span>SKILLS</span>
         </h1>
 
         <CircularProgressSection />

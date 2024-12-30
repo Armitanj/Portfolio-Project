@@ -127,6 +127,11 @@
     .rowSec {
         margin: 80px auto !important;
     }
+    .portfolioImages{
+        width: 200px;
+        height: auto;
+        margin: 16px;
+    }
 }
 
 
@@ -182,6 +187,11 @@
     body {
         height: 100% !important;
         background-color: var(--main-bg-color) !important;
+    }
+    .portfolioImages{
+        width: 300px;
+        height: auto;
+        margin: 16px;
     }
 }
 
@@ -247,4 +257,5 @@
     .rowSec {
         height: 100% !important;
     }
+  
 }

@@ -19,7 +19,7 @@ export default function About() {
     <Container fluid>
 
       <Row className='d-flex AboutComponent '>
-      <h1 className='aboutTitle text-center'>About <span>Me</span></h1>
+      <h1 className='aboutTitle text-center'>ABOUT <span>ME</span></h1>
 
         <Col xl={5} lg={8} md={8} sm={12} className="leftAboutSec mt-5">
           <h2>PERSONAL INFOS</h2>

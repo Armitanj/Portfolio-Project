@@ -1,0 +1,37 @@
+.myPortfolio span {
+    color: var(--yellow-color);
+}
+
+.porfolioComponent {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.portMenu {
+    list-style-type: none;
+}
+
+.portMenu li {
+    padding: 1rem;
+}
+
+.portMenu span {
+    cursor: pointer;
+    transition: 0.4s all ease;
+    -webkit-transition: 0.4s all ease;
+    -moz-transition: 0.4s all ease;
+    -ms-transition: 0.4s all ease;
+    -o-transition: 0.4s all ease;
+}
+.portMenu span:hover {
+   color: var(--yellow-color);
+}
+.portfolioImages{
+    width: 300px;
+    height: auto;
+    margin: 16px;
+}
+.portImg{
+    height: auto;
+    width: 90rem;
+}

@@ -53,12 +53,12 @@ const CircularProgressSection = () => {
   const skills = [
     { id: 1, title: "HTML", progress: 100 },
     { id: 2, title: "CSS", progress: 100 },
-    { id: 3, title: "Bootstrap", progress: 99 },
+    { id: 3, title: "Bootstrap", progress: 90 },
     { id: 4, title: "JavaScript", progress: 80 },
     { id: 5, title: "Reactjs", progress: 85 },
     { id: 6, title: "TypeScript", progress: 10 },
     { id: 7, title: "PWA", progress: 40 },
-    { id: 8, title: "Responsive Design", progress: 100 },
+    { id: 8, title: "Responsive Design", progress: 95 },
   ];
 
   return (

@@ -20,6 +20,9 @@
   .progress-circle {
     transition: stroke-dashoffset 0.5s ease-in-out;
   }
+  .progress-percentage{
+    margin-top: -2rem;
+  }
   
   .circular-progress-text {
     position: absolute;
