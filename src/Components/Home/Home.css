@@ -1,6 +1,6 @@
 .homeComponent {
     display: flex;
-    height: 100vh;
+    height: 100vh ;
     padding: 15px;
     justify-content: space-evenly;
     align-items: center;
@@ -44,3 +44,4 @@
 .desc {
     color: #FFF;
 }
+

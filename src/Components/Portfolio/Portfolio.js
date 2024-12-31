@@ -27,7 +27,7 @@ export default function Portfolio() {
               <li><span>React</span></li>
             </ul>
           </Col>
-          <Col className="portImg d-flex flex-row flex-wrap justify-content-evenly mb-4">
+          <Col className="portImg d-flex flex-row flex-wrap justify-content-evenly">
             {portfolioImages.map(img => (
               <img key={img.id} src={img.image} alt="pic" className="portfolioImages"/>
             ))}

@@ -6,3 +6,118 @@
 .contactTitle span {
     color: var(--yellow-color);
 }
+
+.infoIcon path {
+    color: var(--yellow-color) !important;
+}
+
+.infoTitle {
+    color: var(--light-grey);
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.socialIcon {
+    background-color: var(--grey-icon-color);
+    padding: 8px 12px;
+    transition: 0.4s all ease;
+    -webkit-transition: 0.4s all ease;
+    -moz-transition: 0.4s all ease;
+    -ms-transition: 0.4s all ease;
+    -o-transition: 0.4s all ease;
+    cursor: pointer;
+}
+
+.socialIcon:hover {
+    background-color: var(--grey-icon-hover-color);
+}
+
+.contactFirstCol {
+    width: 90%;
+}
+.contactSecondCol{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    padding: 1rem ;
+}
+:root {
+    --bg: var(--grey-icon-hover-color);
+    --text: var(--light-grey);
+    --accent: var(--yellow-color);
+}
+
+.form-group {
+    --pad: .75rem;
+    position: relative;
+}
+
+input {
+    padding: var(--pad);
+    border-radius: 25px;
+    background-color: var(--bg);
+    border: 1px solid var(--grey-icon-hover-color);
+    width: 100%;
+    outline: none;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: var(--text);
+}
+textarea{
+    resize: both;
+    padding: var(--pad);
+    border-radius: 25px;
+    background-color: var(--bg);
+    border: 1px solid var(--grey-icon-hover-color);
+    color: var(--text);
+    /* width: 90%; */
+    outline: none;
+}
+
+label {
+    position: absolute;     
+    left: var(--pad);
+    top: var(--pad);
+    background: var(--bg);
+    padding-inline: .3em;
+    transition: transform 200ms;
+    pointer-events: none;
+    transform-origin: left;
+    translate: -.3em;
+    font-size: 15px;
+}
+
+input::placeholder {
+    opacity: 0;
+}
+
+input:focus+label,
+input:not(:placeholder-shown)+label,
+textarea:focus+label,
+textarea:not(:placeholder-shown)+label {
+    transform: translateY(calc(-50% - var(--pad))) scale(.8);
+    color: var(--accent);
+    background-color: var(--main-bg-color);
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid var(--accent);
+    background-color: var(--main-bg-color);
+}
+
+
+.subjectInput input, 
+.messageInput textarea {
+    width: 100%;
+
+}
+.messageInput textarea{
+    min-height: 150px;
+    max-height: 175px;
+}

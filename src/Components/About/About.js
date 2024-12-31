@@ -16,7 +16,7 @@ const infoBox = [
 export default function About() {
   return (
     <>
-    <Container fluid>
+    <Container>
 
       <Row className='d-flex AboutComponent '>
       <h1 className='aboutTitle text-center'>ABOUT <span>ME</span></h1>
@@ -42,9 +42,9 @@ export default function About() {
           </div>
           <button className='moreAboutMe w'>View More<span><FaArrowRightLong /></span></button>
         </Col>
-        <Col xl={5} lg={8} md={8} sm={12} className="rightAboutSec">
+        <Col xl={5} lg={8} md={8} sm={12} className="rightAboutSec mb-5">
           {infoBox.map(info => (
-            <div>
+            <div key={info.id}>
               <div className="infoBox">
                 <h4 className='infoBoxTitle'>{info.title}</h4>
                 <p className='infoBoxDesc'>{info.des}</p>

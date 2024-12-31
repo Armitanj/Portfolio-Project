@@ -1,88 +1,135 @@
 /* Extra large devices (Tablets and smaller, max-width: 1200px) */
 @media (max-width: 1200px) {
     .app {
-        background-color: var(--main-bg-color);
-        height: 100%;
+        background-color: var(--main-bg-color) !important;
+        height: 100vh !important;
+    }
+
+    body {
+        height: 100vh !important;
+        background-color: var(--main-bg-color) !important;
     }
 
     .homeRightSec h1 {
-        font-size: 30px;
+        font-size: 1.5rem !important;
     }
 
     .homeRightSec .desc {
         font-size: 14px;
     }
 
-    .AboutComponent {
-        height: 100%;
-    }
-
     .rightAboutSec {
         padding-top: 3rem;
     }
+
+    .contactSecondCol {
+        width: 70%;
+    }
+
+    .emailInput {
+        margin-top: 1.5rem;
+    }
+
+    input {
+        width: 450px;
+    }
+
+    /* .myName, .jobTitle{
+        font-size: 2rem;
+    } */
 }
 
 /* Large devices (Small laptops and tablets, max-width: 992px) */
 @media (max-width: 992px) {
     .app {
-        background-color: #8c2cc399 !important;
+        /* height: 100vh !important; */
+        /* background-color: #8c2cc399 !important; */
+        background-color: var(--main-bg-color) !important;
+
+
     }
 
     .homeRightSec h1 {
-        font-size: 28px;
+        font-size: 24px;
+    }
+
+    .downloadBtn {
+        margin-top: 1rem;
     }
 
     .jobTitle {
         margin: 0.5rem 0 1rem 0;
     }
 
-
-    /* .rightAboutSec {
-        column-gap: 2rem;
-
-    } */
-
     .rightAboutSec .infoBox {
         width: 220px;
         height: 130px;
+    }
+
+    input {
+        width: 100%;
     }
 }
 
 /* Medium devices (Tablets and large phones, max-width:  768px) */
 @media (max-width: 768px) {
     .app {
-        background-color: rgba(0, 51, 255, 0.604) !important;
+        background-color: var(--main-bg-color) !important;
+        /* background-color: rgba(0, 51, 255, 0.604) !important; */
+        height: 103vh !important;
+    }
+    .downloadBtn{
+        margin-bottom: 4rem !important;
+    }
+    .myName {
+        margin-top: 1rem;
+    }
+
+    .downloadBtn {
+        margin: 1rem;
     }
 
 
     .MenuComponent {
-        flex-direction: row !important;
+        flex-direction: row;
         padding: 0;
     }
 
     .MenuComponent .navIcon {
-        width: 100vh !important;
-        height: 100%;
-        border-radius: 0px !important;
-        -webkit-border-radius: 0px !important;
-        -moz-border-radius: 0px !important;
-        -ms-border-radius: 0px !important;
-        -o-border-radius: 0px !important;
-        margin-top: 0rem !important;
-        margin-bottom: -1rem !important;
+        width: 100%;
+        /* height: 100%; */
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
     }
 
     .menuTagSec {
         width: 100%;
         top: auto;
         right: 0rem;
+        bottom: 0rem !important;
+        margin-bottom: -1rem !important;
+        position: fixed;
+        /* padding-top: 10rem !important; */
     }
 
     .AboutComponent {
         padding-left: 4rem;
-        overflow-x: hidden;
     }
 
+    .portImg {
+        margin-bottom: 5rem !important;
+    }
+/* 
+    .contactSecondCol {
+        margin-top: 4rem;
+    } */
+
+    .sendBtn {
+        margin-bottom: 5rem !important;
+    }
 
     .leftAboutSec h2 {
         font-size: 25px;
@@ -127,21 +174,27 @@
     .rowSec {
         margin: 80px auto !important;
     }
-    .portfolioImages{
+
+    .portfolioImages {
         width: 200px;
         height: auto;
         margin: 16px;
     }
+    .skillsComp{
+        height: 115vh;
+    
+        }
 }
 
 
 /* Small devices (Large phones, max-width: 576px) */
 @media (max-width: 576px) {
     .app {
-        background-color: #66eb8c !important;
-        height: 100% !important;
+        background-color: var(--main-bg-color) !important;
+        /* background-color: #66eb8c !important; */
+        /* height: 100% !important; */
     }
-
+ 
     .AboutComponent {
         padding-left: 2rem;
     }
@@ -184,14 +237,20 @@
         margin: 40px !important;
         /* background-color: saddlebrown; */
     }
-    body {
-        height: 100% !important;
-        background-color: var(--main-bg-color) !important;
-    }
-    .portfolioImages{
+
+    .portfolioImages {
         width: 300px;
         height: auto;
         margin: 16px;
+    }
+
+    .contactFirstCol,
+    .contactSecondCol {
+        margin: 1.5rem 1rem;
+    }
+    .skillsComp{
+    height: 125vh;
+
     }
 }
 
@@ -199,11 +258,7 @@
     .app {
         background-color: var(--main-bg-color) !important;
     }
-
-    body {
-        height: 100% !important;
-        background-color: var(--main-bg-color) !important;
-    }
+    
 
     .myName,
     .jobTitle {
@@ -212,6 +267,10 @@
 
     .jobTitle {
         margin: 0.1rem 0 1rem 0;
+    }
+
+    .myName {
+        margin-top: 1.5rem;
     }
 
     .desc {
@@ -257,5 +316,5 @@
     .rowSec {
         height: 100% !important;
     }
-  
+    
 }

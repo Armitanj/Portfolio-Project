@@ -6,7 +6,7 @@ import CircularProgressSection from "../ProgressBar/ProgressBar";
 
 export default function Skills() {
   return (
-    <div className="h-100">
+    <div>
       <Container className="skillsComp">
         <h1 className="mySkills text-center pt-5">
           MY <span>SKILLS</span>

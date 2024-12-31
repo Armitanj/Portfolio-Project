@@ -1,6 +1,5 @@
 .skillsComp {
     width: 100%;
-    height: 100vh;
 }
 .allProgress{
     height: 30vh;
@@ -12,7 +11,5 @@
 
 .rowSec {
     margin-top: 130px !important;
-}
-.h-100{
-    height: 100vh !important;
+
 }
