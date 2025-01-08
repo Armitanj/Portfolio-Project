@@ -78,9 +78,11 @@
         /* background-color: rgba(0, 51, 255, 0.604) !important; */
         height: 103vh !important;
     }
-    .downloadBtn{
+
+    .downloadBtn {
         margin-bottom: 4rem !important;
     }
+
     .myName {
         margin-top: 1rem;
     }
@@ -122,7 +124,8 @@
     .portImg {
         margin-bottom: 5rem !important;
     }
-/* 
+
+    /* 
     .contactSecondCol {
         margin-top: 4rem;
     } */
@@ -145,8 +148,7 @@
         margin-left: 2rem;
     }
 
-    .firstSec,
-    .secondSec {
+    .infosSec {
         font-size: 14px;
         line-height: 2rem;
         margin-top: 1.5rem;
@@ -180,10 +182,11 @@
         height: auto;
         margin: 16px;
     }
-    .skillsComp{
+
+    .skillsComp {
         height: 115vh;
-    
-        }
+
+    }
 }
 
 
@@ -194,7 +197,7 @@
         /* background-color: #66eb8c !important; */
         /* height: 100% !important; */
     }
- 
+
     .AboutComponent {
         padding-left: 2rem;
     }
@@ -206,11 +209,6 @@
     .secondSec {
         width: 60%;
         margin-left: 2rem;
-    }
-
-    .firstSec,
-    .secondSec {
-        font-size: 14px;
     }
 
     .rightAboutSec .infoBox {
@@ -248,8 +246,9 @@
     .contactSecondCol {
         margin: 1.5rem 1rem;
     }
-    .skillsComp{
-    height: 125vh;
+
+    .skillsComp {
+        height: 125vh;
 
     }
 }
@@ -258,10 +257,9 @@
     .app {
         background-color: var(--main-bg-color) !important;
     }
-    
 
-    .myName,
-    .jobTitle {
+
+    .homeRightSec h1 {
         font-size: 20px !important;
     }
 
@@ -290,10 +288,6 @@
         margin-left: 1rem;
     }
 
-    .firstSec,
-    .secondSec {
-        font-size: 13px;
-    }
 
     .rightAboutSec {
         display: grid;
@@ -316,5 +310,26 @@
     .rowSec {
         height: 100% !important;
     }
-    
+
+    .skillsComp {
+        height: 120vh;
+
+    }
+
+    .mySkills,
+    .aboutTitle,
+    .mySkills,
+    .contactTitle,
+    .myPortfolio {
+        font-size: 1.4rem;
+    }
+
+    .leftAboutSec h2 {
+        display: none;
+    }
+
+    .infosSec {
+        margin-top: -2rem;
+        font-size: 13px !important;
+    }
 }

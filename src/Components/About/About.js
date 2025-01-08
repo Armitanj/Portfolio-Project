@@ -42,7 +42,7 @@ export default function About() {
           </div>
           <button className='moreAboutMe w'>View More<span><FaArrowRightLong /></span></button>
         </Col>
-        <Col xl={5} lg={8} md={8} sm={12} className="rightAboutSec mb-5">
+        <Col xl={5} lg={8} md={8} sm={12} className="rightAboutSec mt-5">
           {infoBox.map(info => (
             <div key={info.id}>
               <div className="infoBox">
