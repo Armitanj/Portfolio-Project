@@ -1,3 +1,16 @@
+
+@media (width>1200px){
+    .app {
+        height: 100vh !important;
+        /* background-color: #beff1999 !important; */
+        background-color: var(--main-bg-color) !important;
+
+    }
+    .homeRightSec h1 {
+        font-size: 2rem !important;
+    }
+}
+
 /* Extra large devices (Tablets and smaller, max-width: 1200px) */
 @media (max-width: 1200px) {
     .app {
@@ -39,12 +52,14 @@
     } */
 }
 
-/* Large devices (Small laptops and tablets, max-width: 992px) */
+
+
+/* Large devices (Small laptops and tablets, max-width: 992px) lg size*/
 @media (max-width: 992px) {
     .app {
-        /* height: 100vh !important; */
-        /* background-color: #8c2cc399 !important; */
-        background-color: var(--main-bg-color) !important;
+        height: 100vh !important;
+        background-color: #8c2cc399 !important;
+        /* background-color: var(--main-bg-color) !important; */
 
 
     }
@@ -52,9 +67,11 @@
     .homeRightSec h1 {
         font-size: 24px;
     }
-
+    .homeRightSec h1:first-child{
+        margin-top: 2rem;
+    }
     .downloadBtn {
-        margin-top: 1rem;
+        margin: 1rem auto;
     }
 
     .jobTitle {
@@ -71,11 +88,11 @@
     }
 }
 
-/* Medium devices (Tablets and large phones, max-width:  768px) */
+/* Medium devices (Tablets and large phones, max-width:  768px) md size*/
 @media (max-width: 768px) {
     .app {
-        background-color: var(--main-bg-color) !important;
-        /* background-color: rgba(0, 51, 255, 0.604) !important; */
+        /* background-color: var(--main-bg-color) !important; */
+        background-color: rgba(0, 51, 255, 0.604) !important;
         height: 103vh !important;
     }
 
@@ -193,9 +210,9 @@
 /* Small devices (Large phones, max-width: 576px) */
 @media (max-width: 576px) {
     .app {
-        background-color: var(--main-bg-color) !important;
-        /* background-color: #66eb8c !important; */
-        /* height: 100% !important; */
+        /* background-color: var(--main-bg-color) !important; */
+        background-color: #66eb8c !important;
+        height: 100% !important;
     }
 
     .AboutComponent {
@@ -267,9 +284,9 @@
         margin: 0.1rem 0 1rem 0;
     }
 
-    .myName {
-        margin-top: 1.5rem;
-    }
+    /* .myName { */
+    /* margin-top: 1.5rem; */
+    /* } */
 
     .desc {
         font-size: 12px !important;
@@ -292,6 +309,7 @@
     .rightAboutSec {
         display: grid;
         grid-template-columns: 50% 50%;
+        margin: -5rem auto 3rem auto;
     }
 
     .rightAboutSec .infoBox {
@@ -310,11 +328,11 @@
     .rowSec {
         height: 100% !important;
     }
-
+/* 
     .skillsComp {
         height: 120vh;
 
-    }
+    } */
 
     .mySkills,
     .aboutTitle,
