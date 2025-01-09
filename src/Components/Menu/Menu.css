@@ -23,24 +23,29 @@
     text-align: center;
     cursor: pointer;
     color: #fff;
+    margin-top: 1rem;
+}
+
+.MenuComponent .navIcon path {
     transition: 0.4s ease;
     -webkit-transition: 0.4s ease;
     -moz-transition: 0.4s ease;
     -ms-transition: 0.4s ease;
     -o-transition: 0.4s ease;
-    margin-top: 1rem;
 }
-
-
 
 .MenuComponent .navIcon:hover {
     background-color: var(--grey-icon-hover-color);
+
 }
 
 .MenuComponent .navIcon.active {
     background-color: var(--yellow-color);
 }
 
+.MenuComponent .navIcon.active path {
+    color: var(--main-bg-color) !important;
+}
 
 .MenuComponent .navIcon li {
     margin-top: -5px;

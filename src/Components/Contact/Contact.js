@@ -14,7 +14,7 @@ export default function Contact() {
       id: 1,
       icon: <FaMap />,
       title: "ADDRESS POINT",
-      desc: "123 Stree New York city, United State of America 7500065",
+      desc: "Iran, Tehran",
     },
     {
       id: 2,
@@ -31,10 +31,18 @@ export default function Contact() {
   ];
 
   const socialIcons = [
-    { id: 1, icon: <FaTelegramPlane /> },
-    { id: 2, icon: <FaLinkedinIn /> },
-    { id: 3, icon: <SiGmail /> },
-    { id: 4, icon: <FaGithub /> },
+    { id: 1, icon: <FaTelegramPlane />, link: "t.me/armitanj" },
+    {
+      id: 2,
+      icon: <FaLinkedinIn />,
+      link: "www.linkedin.com/in/armitanajafabadi",
+    },
+    {
+      id: 3,
+      icon: <SiGmail />,
+      link: "mail.google.com/mail/u/0/?hl=fa&tf=cm&fs=1&to=armitanj.dev@gmail.com",
+    },
+    { id: 4, icon: <FaGithub />, link: "github.com/armitanj" },
   ];
   return (
     <>
@@ -63,9 +71,11 @@ export default function Contact() {
               <div className="d-flex flex-row mt-2">
                 {socialIcons.map((icon) => (
                   <div className="socialIcons" key={icon.id}>
-                    <span className="socialIcon rounded-circle m-2">
-                      {icon.icon}
-                    </span>
+                    <a href={`http://${icon.link}`}>
+                      <span className="socialIcon rounded-circle m-2">
+                        {icon.icon}
+                      </span>
+                    </a>
                   </div>
                 ))}
               </div>
@@ -73,7 +83,7 @@ export default function Contact() {
           </Col>
           <Col xl={8} lg={6} md={12} className="contactSecondCol mt-4">
             <Row className="d-flex justify-content-between  ">
-              <Col xl={5} md={12} sm={12} >
+              <Col xl={5} md={12} sm={12}>
                 <div class="form-group">
                   <input type="text" id="name" placeholder="YOUR NAME" />
                   <label for="name">YOUR NAME</label>
@@ -98,12 +108,14 @@ export default function Contact() {
                 <label for="area">YOUR MESSAGE</label>
               </div>
             </div>
-            <button className="moreAboutMe sendBtn">
-              Send Message
-              <span>
-                <RiSendPlaneFill />
-              </span>
-            </button>
+            <a href="https://mail.google.com/mail/u/0/?hl=fa&tf=cm&fs=1&to=armitanj.dev@gmail.com">
+              <button className="moreAboutMe sendBtn">
+                Send Message
+                <span>
+                  <RiSendPlaneFill />
+                </span>
+              </button>
+            </a>
           </Col>
         </Row>
         <div className="menuTagSec">
