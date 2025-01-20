@@ -13,7 +13,7 @@ function App() {
   const location = useLocation();
   useEffect(() => {
     setLoading(true);
-    const timer = setTimeout(() => setLoading(false), 1000);
+    const timer = setTimeout(() => setLoading(false), 300);
     return () => clearTimeout(timer);
   }, [location]);
   return (
