@@ -331,10 +331,10 @@
         height: 100% !important;
     }
 
-    .skillsComp {
-        height: 125vh;
-
-    }
+    /* .skillsComp { */
+        /* height: 125vh; */
+/*  
+    }*/
 
     .mySkills,
     .aboutTitle,
