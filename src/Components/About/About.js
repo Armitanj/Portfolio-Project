@@ -3,12 +3,13 @@ import Menu from "../Menu/Menu";
 import { FaArrowRightLong } from "react-icons/fa6";
 import "./About.css";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const infoBox = [
-  { title: "4+", des: "Years of learninig." },
-  { title: "10+", des: "Completed Projects." },
-  { title: "6+", des: "Useful skills." },
-  { title: "2+", des: "Framworks." },
+  { id: 1, title: "4+", des: "Years of learninig." },
+  { id: 2, title: "10+", des: "Completed Projects." },
+  { id: 3, title: "6+", des: "Useful skills." },
+  { id: 4, title: "2+", des: "Framworks." },
 ];
 
 export default function About() {
@@ -58,12 +59,14 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <button className="moreAboutMe w">
-              View More
-              <span>
-                <FaArrowRightLong />
-              </span>
-            </button>
+            <Link to=".././skills">
+              <button className="moreAboutMe w">
+                View More
+                <span>
+                  <FaArrowRightLong />
+                </span>
+              </button>
+            </Link>
           </Col>
           <Col xl={5} lg={8} md={8} sm={12} className="rightAboutSec mt-5">
             {infoBox.map((info) => (

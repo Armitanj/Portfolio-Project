@@ -2,7 +2,7 @@
 @media (width>1200px){
     .app {
         height: 100vh !important;
-        background-color: #beff1999 !important;
+        /* background-color: #22130d99 !important; */
         /* background-color: var(--main-bg-color) !important; */
 
     }
@@ -50,6 +50,7 @@
     /* .myName, .jobTitle{
         font-size: 2rem;
     } */
+   
 }
 
 
@@ -58,8 +59,8 @@
 @media (max-width: 992px) {
     .app {
         height: 100vh !important;
-        background-color: #8c2cc399 !important;
-        /* background-color: var(--main-bg-color) !important; */
+        /* background-color: #8c2cc399 !important; */
+        background-color: var(--main-bg-color) !important;
 
 
     }
@@ -91,8 +92,8 @@
 /* Medium devices (Tablets and large phones, max-width:  768px) md size*/
 @media (max-width: 768px) {
     .app {
-        /* background-color: var(--main-bg-color) !important; */
-        background-color: rgba(0, 51, 255, 0.604) !important;
+        background-color: var(--main-bg-color) !important;
+        /* background-color: rgba(0, 51, 255, 0.604) !important; */
         height: 103vh !important;
     }
 
@@ -198,22 +199,22 @@
 
     .portfolioImages {
         width: 210px;
-        height: auto;
-        margin: 16px;
+        height: 130px;
+        margin: 18px;
     }
 
-    .skillsComp {
+    /* .skillsComp { */
         /* height: 115vh; */
 
-    }
+    /* } */
 }
 
 
 /* Small devices (Large phones, max-width: 576px) */
 @media (max-width: 576px) {
     .app {
-        /* background-color: var(--main-bg-color) !important; */
-        background-color: #66eb8c !important;
+        background-color: var(--main-bg-color) !important;
+        /* background-color: #66eb8c !important; */
         height: 100% !important;
     }
 

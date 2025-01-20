@@ -30,8 +30,8 @@
 
 .portfolioImages {
   width: 350px;
-  height: auto;
-  margin: 16px;
+  height: 210px;
+  margin: 18px;
   transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
   -moz-transition: 0.5s ease;

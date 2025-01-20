@@ -84,28 +84,28 @@ export default function Contact() {
           <Col xl={8} lg={6} md={12} className="contactSecondCol mt-4">
             <Row className="d-flex justify-content-between  ">
               <Col xl={5} md={12} sm={12}>
-                <div class="form-group">
+                <div className="form-group">
                   <input type="text" id="name" placeholder="YOUR NAME" />
-                  <label for="name">YOUR NAME</label>
+                  <label htmlFor="name">YOUR NAME</label>
                 </div>
               </Col>
               <Col xl={5} md={12} sm={12}>
-                <div class="form-group emailInput">
+                <div className="form-group emailInput">
                   <input type="email" id="email" placeholder="YOUR EMAIL" />
-                  <label for="email">YOUR EMAIL</label>
+                  <label htmlFor="email">YOUR EMAIL</label>
                 </div>
               </Col>
             </Row>
             <div className="subjectInput mt-4">
-              <div class="form-group">
+              <div className="form-group">
                 <input type="text" id="subject" placeholder="YOUR SUBJECT" />
-                <label for="subject">YOUR SUBJECT</label>
+                <label htmlFor="subject">YOUR SUBJECT</label>
               </div>
             </div>
             <div className="messageInput mt-4">
-              <div class="form-group ">
+              <div className="form-group ">
                 <textarea type="text" id="area" placeholder="" />
-                <label for="area">YOUR MESSAGE</label>
+                <label htmlFor="area">YOUR MESSAGE</label>
               </div>
             </div>
             <a href="https://mail.google.com/mail/u/0/?hl=fa&tf=cm&fs=1&to=armitanj.dev@gmail.com">
