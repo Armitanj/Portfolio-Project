@@ -35,10 +35,10 @@ export default function About() {
                   Fleelance: <b>Available</b>
                 </p>
                 <p>
-                  Phone: <b>+989104594547</b>
+                  Phone: <b><Link to='tel:+989024151648' className="links">+989024151648</Link></b>
                 </p>
                 <p>
-                  Skype: <b>Armita.nj</b>
+                  Skype: <b><Link to='https://join.skype.com/invite/zFsqjr3UhpH5' className="links">Armitanj</Link></b>
                 </p>
               </div>
               <div className="secondSec">
@@ -49,13 +49,13 @@ export default function About() {
                   Nationality: <b>Iranian</b>
                 </p>
                 <p>
-                  Address: <b>Iran</b>
+                  Address: <b>Iran, Tehran</b>
                 </p>
                 <p>
-                  Email: <b>Armitanj.dev@gmail.com</b>
+                  Email: <b><Link to='mailto:armitanj.dev@gmail.com' className="links">Armitanj.dev@gmail.com</Link></b>
                 </p>
                 <p>
-                  Languages: <b>Persian,English</b>
+                  Languages: <b>Persian, English</b>
                 </p>
               </div>
             </div>

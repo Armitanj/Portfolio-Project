@@ -40,7 +40,7 @@ export default function Contact() {
     {
       id: 3,
       icon: <SiGmail />,
-      link: "mail.google.com/mail/u/0/?hl=fa&tf=cm&fs=1&to=armitanj.dev@gmail.com",
+      link: "mailto:armitanj.dev@gmail.com",
     },
     { id: 4, icon: <FaGithub />, link: "github.com/armitanj" },
   ];
@@ -108,7 +108,7 @@ export default function Contact() {
                 <label htmlFor="area">YOUR MESSAGE</label>
               </div>
             </div>
-            <a href="https://mail.google.com/mail/u/0/?hl=fa&tf=cm&fs=1&to=armitanj.dev@gmail.com">
+            <a href="mailto:armitanj.dev@gmail.com">
               <button className="moreAboutMe sendBtn">
                 Send Message
                 <span>

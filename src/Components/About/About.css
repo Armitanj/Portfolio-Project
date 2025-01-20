@@ -30,6 +30,48 @@ h1.aboutTitle span {
     width: 60%;
 }
 
+.firstSec .links,
+.secondSec .links {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    position: relative;
+}
+
+.firstSec .links::after,
+.secondSec .links::after {
+    /*color: #ffc965;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    text-shadow: 0 0 5px #ffd700;
+    *//*animation: boderBottom 0.3s;
+    -webkit-animation: boderBottom 0.3s;
+    */content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--yellow-color);
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -ms-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
+}
+
+.firstSec .links:hover::after,
+.secondSec .links:hover::after {
+    width: 100%;
+}
+
 .secondSec {
     width: 70%;
     margin-left: 2rem;
