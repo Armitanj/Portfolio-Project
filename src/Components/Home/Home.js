@@ -17,13 +17,13 @@ export default function Home() {
               />
             </div>
           </Col>
-          <Col xl={6} lg={5} md={7} sm={12} className="homeRightSec text-center">
+          <Col xl={6} lg={5} md={7} sm={12} className="homeRightSec text-start">
             <h1 className="myName">- I'M ARMITA NAJAFABADI.</h1>
             <h1 className="jobTitle"> &nbsp; FRONT END DEVELOPER</h1>
             <p className="desc">
               I am interested in the Front-end field and looking for ways to
               learn more and improve in my relevant position. I am currently
-              developing a responsive and user-friendly portfolio project with
+              developing some responsive and user-friendly projects using
               ReactJS and have completed courses such as HTML5, CSS3, Bootstrap
               5.3, CSS grid, Flexbox, JavaScript ES6, NPM, ReactJS ,
               React-Bootstrap in a self-taught manner.
