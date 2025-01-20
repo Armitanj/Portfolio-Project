@@ -22,19 +22,22 @@
 
 .socialIcon {
     background-color: var(--grey-icon-color);
-    padding: 8px 12px;
+    padding: 9px 12px;
     transition: 0.4s all ease;
     -webkit-transition: 0.4s all ease;
     -moz-transition: 0.4s all ease;
     -ms-transition: 0.4s all ease;
     -o-transition: 0.4s all ease;
     cursor: pointer;
+    text-align: center;
 }
 
 .socialIcon:hover {
     background-color: var(--grey-icon-hover-color);
 }
-
+.socialIcon svg{
+    margin-top: -2px !important;
+}
 .contactFirstCol {
     width: 90%;
 }
