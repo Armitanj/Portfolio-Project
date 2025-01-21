@@ -13,7 +13,7 @@
     border-radius: 15px;
     transition: all 0.2s ease-in;
     box-shadow: var(--yellow-color) -3px 3px 0px 3px;
-    margin-left: 2rem;
+    
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -ms-transition: all 0.2s ease-in;

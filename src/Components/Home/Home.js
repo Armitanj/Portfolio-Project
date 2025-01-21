@@ -11,7 +11,7 @@ export default function Home() {
           <Col xl={5} lg={5} md={5} sm={12} className="text-center">
             <div className="homePic">
               <img
-                src="./images/Armita3.jpg"
+                src="./images/Armita33.jpg"
                 alt="my-pic"
                 className="img-fluid rounded"
               />
