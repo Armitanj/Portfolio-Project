@@ -7,6 +7,7 @@ import { IoMailOpen, IoCall } from "react-icons/io5";
 import { FaTelegramPlane, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { RiSendPlaneFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   const contactInfo = [
@@ -21,12 +22,14 @@ export default function Contact() {
       icon: <IoMailOpen />,
       title: "MAIL ME",
       desc: "armitanj.dev@gmail.com",
+      link: "mailto:armitanj.dev@gmail.com",
     },
     {
       id: 3,
       icon: <IoCall />,
       title: "CALL ME",
       desc: "+989024151648",
+      link: "tel:+989024151648",
     },
   ];
 
@@ -34,13 +37,14 @@ export default function Contact() {
     { id: 1, icon: <FaTelegramPlane />, link: "t.me/armitanj" },
     {
       id: 2,
-      icon: <FaLinkedinIn />,
-      link: "www.linkedin.com/in/armitanajafabadi",
+      icon: <SiGmail />,
+      link: "mailto:armitanj.dev@gmail.com",
+      
     },
     {
       id: 3,
-      icon: <SiGmail />,
-      link: "mailto:armitanj.dev@gmail.com",
+     icon: <FaLinkedinIn />,
+      link: "www.linkedin.com/in/armitanajafabadi",
     },
     { id: 4, icon: <FaGithub />, link: "github.com/armitanj" },
   ];
@@ -60,18 +64,20 @@ export default function Contact() {
                 part of your visions.
               </p>
               {contactInfo.map((info) => (
-                <div className="d-flex" key={info.id}>
+                <div className="d-flex align-items-center" key={info.id}>
                   <h3 className="infoIcon">{info.icon}</h3>
                   <div className="ms-3 mt-2">
                     <span className="infoTitle">{info.title}</span>
-                    <p>{info.desc}</p>
+                    <p>
+                      <Link to={info.link} className="links">{info.desc}</Link>
+                    </p>
                   </div>
                 </div>
               ))}
-              <div className="d-flex flex-row mt-2">
+              <div className="d-flex flex-row mt-4">
                 {socialIcons.map((icon) => (
                   <div className="socialIcons" key={icon.id}>
-                    <a href={`http://${icon.link}`}>
+                    <a href={`http://${icon.link}`} className="eachIcon">
                       <span className="socialIcon rounded-circle m-2">
                         {icon.icon}
                       </span>

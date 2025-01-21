@@ -30,8 +30,8 @@ h1.aboutTitle span {
     width: 60%;
 }
 
-.firstSec .links,
-.secondSec .links {
+
+ .links {
     text-decoration: none;
     /* color: var(--light-grey); */
     color: #fff;
@@ -43,8 +43,8 @@ h1.aboutTitle span {
     position: relative;
 }
 
-.firstSec .links::before,
-.secondSec .links::before {
+
+.links::before {
     content: "→  ";
     transition: left 0.3s ease;
     -webkit-transition: left 0.3s ease;
@@ -55,12 +55,12 @@ h1.aboutTitle span {
     color: var(--yellow-color);
     left: 0;
 }
-.firstSec .links:hover::before,
-.secondSec .links:hover::before{
+
+.links:hover::before{
     left: 4px;
 }
-.firstSec .links::after,
-.secondSec .links::after {
+
+/* .links::after {
     content: "";
     position: absolute;
     left: 0;
@@ -75,16 +75,15 @@ h1.aboutTitle span {
     -o-transition: width 0.3s ease;
 }
 
-/* .firstSec .links:hover::after,
+.firstSec .links:hover::after,
 .secondSec .links:hover::after {
     width: 100%;
     text-decoration: none;
-} */
-
-.firstSec .links:hover,
-.secondSec .links:hover {
-    text-decoration: none;
 }
+
+.links:hover {
+    text-decoration: none;
+} */
 
 .secondSec {
     width: 70%;
