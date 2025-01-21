@@ -33,6 +33,7 @@ h1.aboutTitle span {
 .firstSec .links,
 .secondSec .links {
     text-decoration: none;
+    /* color: var(--light-grey); */
     color: #fff;
     transition: 0.3s ease;
     -webkit-transition: 0.3s ease;
@@ -42,18 +43,25 @@ h1.aboutTitle span {
     position: relative;
 }
 
+.firstSec .links::before,
+.secondSec .links::before {
+    content: "→  ";
+    transition: left 0.3s ease;
+    -webkit-transition: left 0.3s ease;
+    -moz-transition: left 0.3s ease;
+    -ms-transition: left 0.3s ease;
+    -o-transition: left 0.3s ease;
+    position: relative;
+    color: var(--yellow-color);
+    left: 0;
+}
+.firstSec .links:hover::before,
+.secondSec .links:hover::before{
+    left: 4px;
+}
 .firstSec .links::after,
 .secondSec .links::after {
-    /*color: #ffc965;
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    text-shadow: 0 0 5px #ffd700;
-    *//*animation: boderBottom 0.3s;
-    -webkit-animation: boderBottom 0.3s;
-    */content: "";
+    content: "";
     position: absolute;
     left: 0;
     bottom: -2px;
@@ -67,9 +75,15 @@ h1.aboutTitle span {
     -o-transition: width 0.3s ease;
 }
 
-.firstSec .links:hover::after,
+/* .firstSec .links:hover::after,
 .secondSec .links:hover::after {
     width: 100%;
+    text-decoration: none;
+} */
+
+.firstSec .links:hover,
+.secondSec .links:hover {
+    text-decoration: none;
 }
 
 .secondSec {
