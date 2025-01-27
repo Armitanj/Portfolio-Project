@@ -2,8 +2,13 @@
 @media (width>1200px){
     .app {
         height: 100vh !important;
+<<<<<<< HEAD
         /* background-color: #beff1999 !important; */
         background-color: var(--main-bg-color) !important;
+=======
+        /* background-color: #22130d99 !important; */
+        /* background-color: var(--main-bg-color) !important; */
+>>>>>>> 9c0a52d111b3b595b506f9abaffc0ae571733eb7
 
     }
     .homeRightSec h1 {
@@ -50,6 +55,7 @@
     /* .myName, .jobTitle{
         font-size: 2rem;
     } */
+   
 }
 
 
@@ -58,8 +64,13 @@
 @media (max-width: 992px) {
     .app {
         height: 100vh !important;
+<<<<<<< HEAD
         background-color: #8c2cc399 !important;
         /* background-color: var(--main-bg-color) !important; */
+=======
+        /* background-color: #8c2cc399 !important; */
+        background-color: var(--main-bg-color) !important;
+>>>>>>> 9c0a52d111b3b595b506f9abaffc0ae571733eb7
 
 
     }
@@ -95,7 +106,9 @@
         background-color: rgba(0, 51, 255, 0.604) !important;
         height: 103vh !important;
     }
-
+.homePic{
+    margin-left: 2rem;
+}
     .downloadBtn {
         margin-bottom: 4rem !important;
     }
@@ -178,6 +191,8 @@
     .rightAboutSec {
         column-gap: 1rem;
         row-gap: 1.5rem;
+        margin-bottom: 3rem;
+
     }
 
 
@@ -195,23 +210,28 @@
     }
 
     .portfolioImages {
-        width: 200px;
-        height: auto;
-        margin: 16px;
+        width: 210px;
+        height: 130px;
+        margin: 18px;
     }
 
-    .skillsComp {
-        height: 115vh;
+    /* .skillsComp { */
+        /* height: 115vh; */
 
-    }
+    /* } */
 }
 
 
 /* Small devices (Large phones, max-width: 576px) */
 @media (max-width: 576px) {
     .app {
+<<<<<<< HEAD
         /* background-color: var(--main-bg-color) !important; */
         background-color: #66eb8c !important;
+=======
+        background-color: var(--main-bg-color) !important;
+        /* background-color: #66eb8c !important; */
+>>>>>>> 9c0a52d111b3b595b506f9abaffc0ae571733eb7
         height: 100% !important;
     }
 
@@ -265,7 +285,7 @@
     }
 
     .skillsComp {
-        height: 125vh;
+        height: 110vh;
 
     }
 }
@@ -328,11 +348,19 @@
     .rowSec {
         height: 100% !important;
     }
+<<<<<<< HEAD
 /* 
     .skillsComp {
         height: 120vh;
 
     } */
+=======
+
+    /* .skillsComp { */
+        /* height: 125vh; */
+/*  
+    }*/
+>>>>>>> 9c0a52d111b3b595b506f9abaffc0ae571733eb7
 
     .mySkills,
     .aboutTitle,
@@ -349,5 +377,8 @@
     .infosSec {
         margin-top: -2rem;
         font-size: 13px !important;
+    }
+    .socialIcon {
+        padding: 10px 12px;
     }
 }

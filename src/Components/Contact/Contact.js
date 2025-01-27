@@ -22,7 +22,10 @@ export default function Contact() {
       icon: <IoMailOpen />,
       title: "MAIL ME",
       desc: "armitanj.dev@gmail.com",
+<<<<<<< HEAD
       // desc: "example@gmail.com",
+=======
+>>>>>>> 9c0a52d111b3b595b506f9abaffc0ae571733eb7
       link: "mailto:armitanj.dev@gmail.com",
     },
     {
@@ -32,6 +35,7 @@ export default function Contact() {
       link: "tel:+989024151648",
       // link: "tel:+989123456789",
       desc: "+989024151648",
+      link: "tel:+989024151648",
     },
   ];
 
