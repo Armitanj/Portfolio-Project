@@ -36,7 +36,9 @@ export default function About() {
                 </p>
                 <p>
                   Phone: <b><Link to='tel:+989024151648' className="links">+989024151648</Link></b>
+
                   {/* Phone: <b><Link to='tel:+989024151648' className="links">+989123456789</Link></b> */}
+
                 </p>
                 <p>
                   Skype: <b><Link to='https://join.skype.com/invite/zFsqjr3UhpH5' className="links">Armitanj</Link></b>
@@ -55,6 +57,7 @@ export default function About() {
                 <p>
                   Email: <b><Link to='mailto:armitanj.dev@gmail.com' className="links">Example@gmail.com</Link></b>
                   {/* Email: <b><Link to='mailto:armitanj.dev@gmail.com' className="links">Armitanj.dev@gmail.com</Link></b> */}
+                  Email: <b><Link to='mailto:armitanj.dev@gmail.com' className="links">Armitanj.dev@gmail.com</Link></b>
                 </p>
                 <p>
                   Languages: <b>Persian, English</b>

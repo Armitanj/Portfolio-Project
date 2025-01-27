@@ -4,7 +4,9 @@
   box-sizing: border-box;
   color: #fff;
 }
-
+html{
+  scroll-behavior: smooth !important;
+}
 :root {
   --main-bg-color: #2B2B28;
   --yellow-color: #FDDB3A;
