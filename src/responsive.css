@@ -1,6 +1,6 @@
 @media (width>1200px) {
     .app {
-        height: 100vh !important;
+        height: 100% !important;
         background-color: var(--main-bg-color) !important;
 
     }
@@ -14,12 +14,13 @@
 @media (max-width: 1200px) {
     .app {
         background-color: var(--main-bg-color) !important;
-        height: 100vh !important;
+        /* background-color: #ddd; */
+        height: 100% !important;
     }
 
     body {
-        height: 100vh !important;
-        background-color: var(--main-bg-color) !important;
+        height: 100% !important;
+        /* background-color: var(--main-bg-color) !important; */
     }
 
     .homeRightSec h1 {
@@ -60,7 +61,7 @@
 /* Large devices (Small laptops and tablets, max-width: 992px) lg size*/
 @media (max-width: 992px) {
     .app {
-        height: 100vh !important;
+        height: 100% !important;
         /* background-color: #8c2cc399 !important; */
         background-color: var(--main-bg-color) !important;
 
@@ -91,6 +92,7 @@
     input {
         width: 100%;
     }
+  
 }
 
 /* Medium devices (Tablets and large phones, max-width:  768px) md size*/
@@ -98,7 +100,7 @@
     .app {
         background-color: var(--main-bg-color) !important;
         /* background-color: rgba(0, 51, 255, 0.604) !important; */
-        height: 103vh !important;
+        height: 100% !important;
     }
 
     .homePic {
@@ -215,6 +217,11 @@
     /* height: 115vh; */
 
     /* } */
+    .skillsComp .skillRow:last-child{
+        /* height: 100%; */
+        /* background-color: #66eb8c !important; */
+        margin-bottom: 4rem !important;
+    }
 }
 
 

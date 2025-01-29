@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Menu from "../Menu/Menu";
 import "./Skills.css";
-// import CircularProgressSection from "../ProgressBar/ProgressBar";
 
 export default function Skills() {
   const skills = [
@@ -19,11 +18,10 @@ export default function Skills() {
           MY <span>SKILLS</span>
         </h1>
 
-        {/* <CircularProgressSection /> */}
-        <Row className="d-flex flex-row  align-items-center justify-content-start">
+        <Row className=" d-flex flex-row  align-items-center justify-content-start  ">
          
           {skills.map(skill => (
-          <Col xl={4} lg={4} md={6} sm={6} className="text-center align-center" key={skill.id}>
+          <Col xl={4} lg={4} md={6} sm={6} className="text-center align-center skillRow" key={skill.id}>
             <div className="mt-5 mb-1 skills">
               <img src={skill.pic} className="skillImg" alt="Img"/>
               <h3 className="mt-2" >{skill.name}</h3>
