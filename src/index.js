@@ -6,11 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import './responsive.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <App />
+    <Analytics />
   </BrowserRouter>
 );
 

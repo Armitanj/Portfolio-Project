@@ -11,6 +11,7 @@ export default function Skills() {
     { id: 4, pic: './images/skillPics/React.png', name: 'React', desc: 'A library for building user interfaces with reusable components.' },
     { id: 5, pic: './images/skillPics/PWA.png', name: 'PWA', desc: 'A web app that works offline and can be installed on a device.' },
   ]
+
   return (
     <div>
       <Container className="skillsComp">
