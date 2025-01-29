@@ -31,7 +31,6 @@ export default function Contact() {
       desc: "+989024151648",
       link: "tel:+989024151648",
       // link: "tel:+989123456789",
-      desc: "+989024151648",
     },
   ];
 

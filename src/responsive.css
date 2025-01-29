@@ -61,8 +61,7 @@
 @media (max-width: 992px) {
     .app {
         height: 100vh !important;
-        background-color: #8c2cc399 !important;
-       
+        /* background-color: #8c2cc399 !important; */
         background-color: var(--main-bg-color) !important;
 
 
@@ -222,10 +221,8 @@
 /* Small devices (Large phones, max-width: 576px) */
 @media (max-width: 576px) {
     .app {
-       
-        /* background-color: #66eb8c !important; */
         background-color: var(--main-bg-color) !important;
-      
+        /* background-color: #66eb8c !important; */
         height: 100% !important;
     }
 
@@ -255,6 +252,12 @@
         font-size: 14px;
     }
 
+    /* .menuTagSec {
+        width: 100%;
+        top: auto;
+        right: 0rem;
+        margin-bottom: -3rem;
+    } */
 
     .rowSec {
         margin: 40px !important;
@@ -336,6 +339,12 @@
     .rowSec {
         height: 100% !important;
     }
+
+    /* .skillsComp { */
+    /* height: 125vh; */
+    /*  
+    }*/
+
     .mySkills,
     .aboutTitle,
     .mySkills,
