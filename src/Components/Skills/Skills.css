@@ -5,24 +5,24 @@
     height: 30vh;
     width: 20% !important;
 }*/
- .mySkills span {
-     color: var(--yellow-color);
- }
+.mySkills span {
+    color: var(--yellow-color);
+}
 
- /* .rowSec {
-    margin-top: 130px !important;
+/* .rowSec {
+   margin-top: 130px !important;
 
 } */
 
- .skillImg {
-     width: 110px;
-     height: auto;
-     /* filter:grayscale(1); */
-     transition: 0.3s ease;
- }
+.skillImg {
+    width: 110px;
+    height: auto;
+    /* filter:grayscale(1); */
+    transition: 0.3s ease;
+}
 
- .skillImg:hover {
-     cursor: pointer;
-     /* filter: grayscale(0); */
-    opacity: 0.6;
- }
+.skillImg:hover {
+    cursor: pointer;
+    /* filter: grayscale(0); */
+   opacity: 0.6;
+}
