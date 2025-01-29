@@ -61,8 +61,9 @@
 /* Large devices (Small laptops and tablets, max-width: 992px) lg size*/
 @media (max-width: 992px) {
     .app {
-        height: 100% !important;
-        /* background-color: #8c2cc399 !important; */
+        height: 100vh !important;
+        background-color: #8c2cc399 !important;
+       
         background-color: var(--main-bg-color) !important;
 
 
