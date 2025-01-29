@@ -1,11 +1,10 @@
-
-@media (width>1200px){
+@media (width>1200px) {
     .app {
         height: 100vh !important;
-        /* background-color: #22130d99 !important; */
-        /* background-color: var(--main-bg-color) !important; */
+        background-color: var(--main-bg-color) !important;
 
     }
+
     .homeRightSec h1 {
         font-size: 2rem !important;
     }
@@ -50,7 +49,10 @@
     /* .myName, .jobTitle{
         font-size: 2rem;
     } */
-   
+    .skillsComp {
+        height: 100vh;
+    }
+
 }
 
 
@@ -68,9 +70,11 @@
     .homeRightSec h1 {
         font-size: 24px;
     }
-    .homeRightSec h1:first-child{
+
+    .homeRightSec h1:first-child {
         margin-top: 2rem;
     }
+
     .downloadBtn {
         margin: 1rem auto;
     }
@@ -96,9 +100,11 @@
         /* background-color: rgba(0, 51, 255, 0.604) !important; */
         height: 103vh !important;
     }
-.homePic{
-    margin-left: 2rem;
-}
+
+    .homePic {
+        margin-left: 2rem;
+    }
+
     .downloadBtn {
         margin-bottom: 4rem !important;
     }
@@ -206,7 +212,7 @@
     }
 
     /* .skillsComp { */
-        /* height: 115vh; */
+    /* height: 115vh; */
 
     /* } */
 }
@@ -335,8 +341,8 @@
     }
 
     /* .skillsComp { */
-        /* height: 125vh; */
-/*  
+    /* height: 125vh; */
+    /*  
     }*/
 
     .mySkills,
@@ -355,6 +361,7 @@
         margin-top: -2rem;
         font-size: 13px !important;
     }
+
     .socialIcon {
         padding: 10px 12px;
     }

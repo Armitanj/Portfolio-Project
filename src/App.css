@@ -17,10 +17,12 @@ html{
 
 .app {
   width: 100%;
-  height: 100vh !important;
+  /* height: 100vh !important; */
   background-color: var(--main-bg-color) !important;
 }
-
+body{
+  background-color: var(--main-bg-color) !important;
+}
 .menuTagSec {
   position: absolute;
   top: 12rem;
