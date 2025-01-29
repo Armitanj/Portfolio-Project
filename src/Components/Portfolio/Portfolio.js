@@ -27,7 +27,11 @@ export default function Portfolio() {
               <li><span>React</span></li>
             </ul>
           </Col> */}
+<<<<<<< HEAD
+          <Col className="portImg">
+=======
           <Col className="portImg textCenter">
+>>>>>>> 9c0a52d111b3b595b506f9abaffc0ae571733eb7
             {portfolioImages.map(img => (
               <a href={`https://github.com/Armitanj/${img.link}`} key={img.id}>
                 <img key={img.id} src={img.image} alt="pic" className="portfolioImages"/>

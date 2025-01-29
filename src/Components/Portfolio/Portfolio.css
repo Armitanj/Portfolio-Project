@@ -31,8 +31,13 @@
 
 .portfolioImages {
   width: 350px;
+<<<<<<< HEAD
+  height: auto;
+  margin: 16px;
+=======
   height: 210px;
   margin: 18px;
+>>>>>>> 9c0a52d111b3b595b506f9abaffc0ae571733eb7
   transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
   -moz-transition: 0.5s ease;
@@ -52,6 +57,11 @@
 
 .portImg {
     height: auto;
+<<<<<<< HEAD
+    width: 100rem;
+    margin-top: 5rem !important;
+=======
     width: 100% !important;
     margin-top: 3rem !important; 
+>>>>>>> 9c0a52d111b3b595b506f9abaffc0ae571733eb7
 }
