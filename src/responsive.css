@@ -229,8 +229,8 @@
 /* Small devices (Large phones, max-width: 576px) */
 @media (max-width: 576px) {
     .app {
-        /* background-color: var(--main-bg-color) !important; */
-        background-color: #66eb8c !important;
+        background-color: var(--main-bg-color) !important;
+        /* background-color: #66eb8c !important; */
         height: 100% !important;
     }
 
