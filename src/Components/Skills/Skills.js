@@ -25,8 +25,8 @@ export default function Skills() {
           <Col xl={4} lg={4} md={6} sm={6} className="text-center align-center skillRow" key={skill.id}>
             <div className="mt-5 mb-1 skills">
               <img src={skill.pic} className="skillImg" alt="Img"/>
-              <h3 className="mt-2" >{skill.name}</h3>
-              <p>{skill.desc}</p>
+              <h3 className="mt-2 skillName" >{skill.name}</h3>
+              <p className="skillDesc">{skill.desc}</p>
             </div>
            </Col>
           ))}
