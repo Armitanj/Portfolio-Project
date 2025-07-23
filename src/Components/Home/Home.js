@@ -21,12 +21,9 @@ export default function Home() {
             <h1 className="myName">- I'M ARMITA NAJAFABADI.</h1>
             <h1 className="jobTitle"> &nbsp; FRONT END DEVELOPER</h1>
             <p className="desc">
-              I am interested in the Front-end field and looking for ways to
-              learn more and improve in my relevant position. I am currently
-              developing some responsive and user-friendly projects using
-              ReactJS and have completed courses such as HTML5, CSS3, Bootstrap
-              5.3, CSS grid, Flexbox, JavaScript ES6, NPM, ReactJS ,
-              React-Bootstrap in a self-taught manner.
+              Motivated Front-end developer with experience in building responsive and user-friendly web applications. Skilled in React, Tailwind CSS, and modern JavaScript frameworks. Eager to grow professionally and contribute to dynamic and collaborative teams. Passionate about creating seamless user experiences and writing clean, maintainable code.
+
+
             </p>
             <a href="/cv/Armita_Najafabadi_Resume.pdf" download>
               {" "}
